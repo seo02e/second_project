@@ -1,4 +1,9 @@
 @charset "utf-8";
+@font-face {
+  font-family: 'main';
+  src: url('../data/SKYBORI.ttf') format('truetype');
+}
+
 
 *{
   margin: 0;
@@ -8,7 +13,7 @@
   font-size: 14px;
   color: #333;
   box-sizing: border-box;
-  font-family: '맑은 고딕';
+  font-family: 'main', sans-serif;
 }
 main{
   display: flex;
@@ -31,4 +36,8 @@ aside .spot-menu{
   width: calc(100% - 200px);
   background-color: #fff1c9;
 
+}
+
+.shortcut{
+  background-image: url('../data/그림1.png');
 }
